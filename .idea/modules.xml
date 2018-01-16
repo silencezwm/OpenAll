@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenAll.iml" filepath="$PROJECT_DIR$/OpenAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openall/openall.iml" filepath="$PROJECT_DIR$/openall/openall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openall.annotation/openall.annotation.iml" filepath="$PROJECT_DIR$/openall.annotation/openall.annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openall.compiler/openall.compiler.iml" filepath="$PROJECT_DIR$/openall.compiler/openall.compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openall.param/openall.param.iml" filepath="$PROJECT_DIR$/openall.param/openall.param.iml" />
+    </modules>
+  </component>
+</project>

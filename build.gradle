@@ -1,0 +1,45 @@
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    apply plugin: 'checkstyle'
+
+    checkstyle {
+        toolVersion = '6.1.1'
+    }
+
+    task Checkstyle(type: Checkstyle) {
+        source 'src'
+        configFile rootProject.file('checkstyle.xml')
+        include '**/*.java'
+        exclude '**/gen/**'
+        ignoreFailures true
+        showViolations true
+
+        classpath = files()
+    }
+
+    afterEvaluate {
+        if (project.tasks.findByName('check')) {
+            check.dependsOn('checkstyle')
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
