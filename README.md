@@ -4,6 +4,8 @@
 
 But now only support open activity in activity.
 
+[中文介绍](https://juejin.im/post/5a5db8a46fb9a01cc026404c)
+
 ### Usage method:
 
 ### Step 1:
