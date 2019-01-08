@@ -4,7 +4,7 @@
 
 But now only support open activity in activity.
 
-[中文介绍](https://juejin.im/post/5a5db8a46fb9a01cc026404c)
+[中文介绍](https://blog.csdn.net/silencezwm/article/details/79076549)
 
 ### Usage method:
 
